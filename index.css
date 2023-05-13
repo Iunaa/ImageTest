@@ -1,23 +1,17 @@
-.quadrado{
-    display: inline-block;
-    border-radius: 10px;
-    background-color: lightgrey;
-    border: 2px solid black;
-    width: 300px;
-    height: 300px;
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url('./img/wallpaper002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-#q1{
-    background-color: skyblue;
-
-}
-
-#q2{
-    background-image: linear-gradient(to bottom, yellow, red);
-
-}
-
-#q3{
-    background-image: url('./img/pattern001.png');
-
+main{
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
 }
